@@ -374,6 +374,10 @@ main {
     .nota {
         margin-top: 0;
     }
+
+    main{
+        height: 100vh;
+    }
 }
 
 @media (max-width: 768px) {
