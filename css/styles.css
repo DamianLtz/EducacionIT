@@ -1,0 +1,411 @@
+/* Fonts y Resets */
+
+html {
+    font-size: 62.5%;
+}
+
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+li,
+ul,
+dl {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@700&display=swap');
+
+h1 {
+    font-size: 4.8rem;
+}
+
+h2 {
+    font-family: 'Rubik', sans-serif;
+    font-size: 3.6rem;
+    padding: 3.2rem 0;
+}
+
+h3 {
+    font-size: 2.4rem;
+}
+
+p {
+    font-size: 14px;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.row {
+    margin: 0;
+    padding: 0;
+    flex-grow: 0;
+}
+
+.navbar {
+    justify-content: center;
+}
+
+.navbar-collapse {
+    flex-grow: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* Inicio Styles Html */
+
+.logo {
+    height: 35px;
+    width: auto;
+}
+
+.mobile__nav {
+    display: none;
+}
+
+form {
+    display: flex;
+    width: 440px;
+    border: 1px solid #4285F4;
+    border-radius: 5px;
+    background-color: #ffffff;
+}
+
+.form-control-box {
+    display: flex;
+    align-items: center;
+}
+
+.form-control {
+    padding: 10px 16px;
+    font-size: 1.6rem;
+    border: none;
+}
+
+.form-control:focus {
+    box-shadow: none;
+}
+
+.boxlupa {
+    display: none;
+}
+
+.lupa {
+    border: none;
+    width: 16px;
+    height: 16px;
+}
+
+.ubicacion__box {
+    margin: 0 0.75rem;
+    padding: 0 0.5rem;
+    border-radius: 4px;
+    border: 1px #ccc solid;
+}
+
+.ubicacion {
+    width: 14px;
+    height: 14px;
+}
+
+.telephone {
+    display: flex;
+    align-items: center;
+}
+
+.telephone__icon {
+    width: 18px;
+    height: 18px;
+}
+
+.telephone__p {
+    font-size: 18px;
+}
+
+.desktop__nav {
+    padding: 2rem;
+    border-bottom: 1px rgb(221, 221, 221, 0.5) solid;
+}
+
+.desktop__nav2 {
+    width: 100%;
+    padding: 1.5rem;
+    border-bottom: 1px rgb(221, 221, 221, 0.5) solid;
+}
+
+
+main {
+    background-image: url(../img/wall6.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    place-items: center;
+    height: 85vh;
+    grid-template-rows: 1fr;
+}
+
+.wallit__box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 3.2rem 0
+}
+
+.wallit__h1 {
+    color: #ffffff;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 700;
+    padding: 3.2rem;
+}
+
+.wallit__box>h3 {
+    padding: 3.2rem;
+    color: white;
+    text-align: center;
+}
+
+.wallit__empresas {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.wallit__empresas>img {
+    height: 50px;
+    margin: 3.2rem;
+}
+
+.flecha {
+    padding-bottom: 3.2rem;
+}
+
+.boxcursos .col-lg-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boxcurso__1 {
+    width: 100%;
+    border-radius: 2px;
+    padding: 2rem 0;
+    margin: 0.8rem 0;
+    border: 2px solid #0B2CC6;
+    text-align: center;
+    font-size: 1.6rem;
+    transition: width 1s, height 1s, transform 0.35s;
+}
+
+.boxcurso__1:hover {
+    color: #ffffff;
+    transform: scale(1.05);
+    background-color: #0B2CC6;
+}
+
+.boxcurso__2 {
+    width: 100%;
+    border-radius: 2px;
+    margin: 0.8rem 0;
+    padding: 2rem 0;
+    border: 2px solid #B50100;
+    text-align: center;
+    font-size: 1.6rem;
+    transition: width 1s, height 1s, transform 0.35s;
+}
+
+.boxcurso__2:hover {
+    color: #ffffff;
+    transform: scale(1.05);
+    background-color: #B50100;
+}
+
+.boxcurso__3 {
+    width: 100%;
+    border-radius: 2px;
+    margin: 0.8rem 0;
+    padding: 2rem 0;
+    border: 2px solid #CF177A;
+    text-align: center;
+    font-size: 1.6rem;
+    transition: width 1s, height 1s, transform 0.35s;
+}
+
+.boxcurso__3:hover {
+    color: #ffffff;
+    transform: scale(1.05);
+    background-color: #CF177A;
+}
+
+.boxcurso__4 {
+    width: 100%;
+    border-radius: 2px;
+    margin: 0.8rem 0;
+    padding: 2rem 0;
+    border: 2px solid #6B1DEB;
+    text-align: center;
+    font-size: 1.6rem;
+    transition: width 1s, height 1s, transform 0.35s;
+}
+
+.boxcurso__4:hover {
+    color: #ffffff;
+    transform: scale(1.05);
+    background-color: #6B1DEB;
+}
+
+.boxcurso__5 {
+    width: 100%;
+    border-radius: 2px;
+    margin: 0.8rem 0;
+    padding: 2rem 0;
+    border: 2px solid #006D72;
+    text-align: center;
+    font-size: 1.6rem;
+    transition: width 1s, height 1s, transform 0.35s;
+}
+
+.boxcurso__5:hover {
+    color: #ffffff;
+    transform: scale(1.05);
+    background-color: #006D72;
+}
+
+.boxcurso__6 {
+    width: 100%;
+    border-radius: 2px;
+    margin: 0.8rem 0;
+    padding: 2rem 0;
+    border: 2px solid #455A6E;
+    text-align: center;
+    font-size: 1.6rem;
+    transition: width 1s, height 1s, transform 0.35s;
+}
+
+.boxcurso__6:hover {
+    color: #ffffff;
+    transform: scale(1.05);
+    background-color: #455A6E;
+}
+
+/* Medios */
+
+.educacionIT__h2{
+    text-align: center;
+    margin: 3.2rem 0;
+}
+
+.educacionIT {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 700;
+}
+
+.portalbox {
+    margin: 3.2rem 0;
+}
+
+.portales {
+    width: 205px;
+    height: 100px;
+}
+
+.contenidoportal {
+    height: 230px;
+    font-size: 20px;
+    line-height: 1.5;
+    border-top: 1px #308dfc solid;
+    padding: 3.2rem 1rem 1.6rem 1rem;
+    margin-bottom: 4.8rem;
+}
+
+.nota {
+    width: 100%;
+    margin-top: 3.2rem;
+    padding: 0.8rem 0;
+    text-align: center;
+    color: #ffffff;
+    width: 100%;
+    background-color: #308dfc;
+}
+
+
+@media (max-width: 991px) {
+
+    .desktop__nav {
+        display: none;
+    }
+
+    .mobile__nav {
+        display: flex;
+    }
+
+    .mobile__reverse {
+        flex-direction: row-reverse;
+    }
+
+    form {
+        width: 350px;
+    }
+
+    .desktop__nav2 {
+        display: none;
+    }
+
+    .contenidoportal {
+        margin-bottom: 0;
+    }
+
+    .nota {
+        margin-top: 0;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .boxlupa {
+        display: inline-block;
+        padding: 0.75rem;
+        border-radius: 5px;
+        border: 1px solid #4285F4;
+    }
+
+    .lupa {
+        height: 20px;
+        width: 20px;
+    }
+
+    form {
+        display: none;
+    }
+
+    .form-control {
+        display: none;
+    }
+}
+
+@media (max-width: 576px) {
+
+    .contenidoportal {
+        height: auto;
+    }
+
+    .nota {
+        width: 50%;
+    }
+}

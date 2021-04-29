@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>EducacionIT | Proyecto</title>
+</head>
+
+<body>
+    <!-- Navbar Desktop -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light desktop__nav">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="img/logo-it.svg" alt="Logo EducacionIT" class="logo">
+            </a>
+            <form class="form-control-box">
+                <input class="form-control me-2" type="search" placeholder="Buscá tu curso" aria-label="Search">
+                <button class="btn d-flex" type="submit">
+                    <img src="img/lupa.svg" alt="" class="lupa">
+                </button>
+            </form>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <ul class="navbar-nav">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle d-flex align-items-center" href="#" id="navbarDropdownMenuLink"
+                        role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Sucursales:
+                        <div class="d-flex align-items-center ubicacion__box">
+                            <img src="img/ubicacion.svg" alt="" class="ubicacion m-1">
+                            <p class="m-1"> Buenos Aires</p>
+                        </div>
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <li><a class="dropdown-item" href="#">Ciudad de Buenos Aires</a></li>
+                        <li><a class="dropdown-item" href="#">Córdoba</a></li>
+                        <li><a class="dropdown-item" href="#">Posadas</a></li>
+                        <li><a class="dropdown-item" href="#">Rosario</a></li>
+                        <li><a class="dropdown-item" href="#">Salta</a></li>
+                        <li><a class="dropdown-item" href="#">San Juan</a></li>
+                        <li><a class="dropdown-item" href="#">Santa Fé</a></li>
+                        <li><a class="dropdown-item" href="#">Tandil</a></li>
+                        <li><a class="dropdown-item" href="#">Tucumán</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light desktop__nav2">
+        <div class="container">
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Comunidad
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="#">Nosotros</a></li>
+                            <li><a class="dropdown-item" href="#">Alumnos</a></li>
+                            <li><a class="dropdown-item" href="#">Empresas</a></li>
+                            <li><a class="dropdown-item" href="#">Promociones</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Cursos
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="#">Programación</a></li>
+                            <li><a class="dropdown-item" href="#">Datos</a></li>
+                            <li><a class="dropdown-item" href="#">Marketing</a></li>
+                            <li><a class="dropdown-item" href="#">Diseño</a></li>
+                            <li><a class="dropdown-item" href="#">Infraestructuras</a></li>
+                            <li><a class="dropdown-item" href="#">Productividad</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Carreras
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="#">Programación</a></li>
+                            <li><a class="dropdown-item" href="#">Datos</a></li>
+                            <li><a class="dropdown-item" href="#">Marketing</a></li>
+                            <li><a class="dropdown-item" href="#">Diseño</a></li>
+                            <li><a class="dropdown-item" href="#">Infraestructuras</a></li>
+                            <li><a class="dropdown-item" href="#">Productividad</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#">Webinars gratuitos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#">Empleos</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="telephone">
+                <img src="img/telephone.svg" alt="" class="telephone__icon me-2">
+                <a href="#" class="telephone__p">
+                    0800 220 8148
+                </a>
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar Mobile -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light mobile__nav">
+        <div class="container-fluid mobile__reverse">
+            <a href="#" class="boxlupa">
+                <img src="img/lupa.svg" alt="" class="lupa">
+            </a>
+            <form>
+                <input class="form-control me-2" type="search" placeholder="Buscá tu curso" aria-label="Search">
+                <button class="btn d-flex align-items-center" type="submit">
+                    <img src="img/lupa.svg" alt="" class="lupa">
+                </button>
+            </form>
+            <a class="navbar-brand" href="#">
+                <img src="img/logo-it.svg" alt="Logo EducacionIT" class="logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Comunidad
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="#">Nosotros</a></li>
+                            <li><a class="dropdown-item" href="#">Alumnos</a></li>
+                            <li><a class="dropdown-item" href="#">Empresas</a></li>
+                            <li><a class="dropdown-item" href="#">Promociones</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Cursos
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="#">Programación</a></li>
+                            <li><a class="dropdown-item" href="#">Datos</a></li>
+                            <li><a class="dropdown-item" href="#">Marketing</a></li>
+                            <li><a class="dropdown-item" href="#">Diseño</a></li>
+                            <li><a class="dropdown-item" href="#">Infraestructuras</a></li>
+                            <li><a class="dropdown-item" href="#">Productividad</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Carreras
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="#">Programación</a></li>
+                            <li><a class="dropdown-item" href="#">Datos</a></li>
+                            <li><a class="dropdown-item" href="#">Marketing</a></li>
+                            <li><a class="dropdown-item" href="#">Diseño</a></li>
+                            <li><a class="dropdown-item" href="#">Infraestructuras</a></li>
+                            <li><a class="dropdown-item" href="#">Productividad</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#">Webinars gratuitos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#">Empleos</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <main class="container-fluid p-0 wallit">
+        <div class=" wallit__box">
+            <h1 class="wallit__h1">
+                EnjoyIT
+            </h1>
+            <h3>
+                Estas empresas buscan sus empleados aquí
+            </h3>
+            <div class="wallit__empresas">
+                <img src="img/MercadoLibre.svg" alt="" class="img-fluid">
+                <img src="img/Globant.svg" alt="" class="img-fluid">
+                <img src="img/greenpeace.svg" alt="" class="img-fluid">
+                <img src="img/Disney.svg" alt="">
+                <img src="img/Accenture.svg" alt="">
+            </div>
+        </div>
+        <div class="container d-flex justify-content-center">
+            <img src="img/flecha.svg" alt="" class="flecha">
+        </div>
+    </main>
+
+    <!-- Seccion Categorias -->
+    <section class="container">
+        <h2>
+            Categorías
+        </h2>
+        <div class="row boxcursos">
+            <div class="col-lg-2 col-md-4">
+                <a href="#" class="boxcurso__1">Programación</a>
+            </div>
+            <div class="col-lg-2 col-md-4">
+                <a href="#" class="boxcurso__2">Datos</a>
+            </div>
+            <div class="col-lg-2 col-md-4">
+                <a href="#" class="boxcurso__3">Marketing</a>
+            </div>
+            <div class="col-lg-2 col-md-4">
+                <a href="#" class="boxcurso__4">Diseño</a>
+            </div>
+            <div class="col-lg-2 col-md-4">
+                <a href="#" class="boxcurso__5">Infraestructuras</a>
+            </div>
+            <div class="col-lg-2 col-md-4">
+                <a href="#" class="boxcurso__6">Productividad</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- EducacionIT en los medios -->
+    <section class="container">
+        <h2 class="educacionIT__h2">
+            <span class="educacionIT">EducacionIT </span>en los medios
+        </h2>
+        <div class="row align-items-start portalbox">
+            <div class="col-lg-2 col-md-4 col-sm-6">
+                <img src="img/lanacion.svg" alt="La Nacion" class="img-fluid portales">
+                <p class="contenidoportal">
+                    El nuevo aprendizaje en vivo de la educación a distancia
+                </p>
+                <a href="#" class="nota w-100 d-inline-block">
+                    Leer Nota
+                </a>
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-6">
+                <img src="img/clarin.svg" alt="Clarin" class="img-fluid portales">
+                <p class="contenidoportal">
+                    Diversos saberes en tecnología
+                </p>
+                <a href="#" class="nota d-inline-block">
+                    Leer Nota
+                </a>
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-6">
+                <img src="img/ambito.svg" alt="Ambito" class="img-fluid portales">
+                <p class="contenidoportal">
+                    ¿Cuáles son los cursos más demandados en el sector IT?
+                </p>
+                <a href="#" class="nota d-inline-block">
+                    Leer Nota
+                </a>
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-6">
+                <img src="img/infobae.svg" alt="Infobae" class="img-fluid portales">
+                <p class="contenidoportal">
+                    Cuáles son los talentos que las empresas más valoran y que los robots no pueden imitar
+                </p>
+                <a href="#" class="nota d-inline-block">
+                    Leer Nota
+                </a>
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-6">
+                <img src="img/perfil.svg" alt="Perfil" class="img-fluid portales">
+                <p class="contenidoportal">
+                    Por qué es fundamental promover la diversidad de género
+                </p>
+                <a href="#" class="nota d-inline-block">
+                    Leer Nota
+                </a>
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-6">
+                <img src="img/infotechnology.svg" alt="Info Technology" class="img-fluid portales">
+                <p class="contenidoportal">
+                    Estos son los 5 cursos elegidos por los argentinos para cambiar de trabajo.
+                </p>
+                <a href="#" class="nota d-inline-block">
+                    Leer Nota
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
